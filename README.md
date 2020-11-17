@@ -21,7 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Find and Replace
-      uses: shitiomatic/str-replace@master
+      uses: bejoistic/str-replace@master
       with:
         find: "hello"
         replace: "world"
@@ -57,7 +57,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Find and Replace
-      uses: shitiomatic/str-replace@master
+      uses: bejoistic/str-replace@master
       with:
         find: "hello"
         replace: "world"
@@ -77,7 +77,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Find and Replace
-      uses: shitiomatic/str-replace@master
+      uses: bejoistic/str-replace@master
       with:
         find: "hello"
         replace: "world"
@@ -97,7 +97,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Find and Replace
-      uses: shitiomatic/str-replace@master
+      uses: bejoistic/str-replace@master
       with:
         find: "hello"
         replace: "world"
